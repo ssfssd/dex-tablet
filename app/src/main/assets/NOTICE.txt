@@ -1,0 +1,12 @@
+DeX Tablet 0.2.0 - development build
+Copyright 2026 DeX Tablet contributors. Licensed under Apache-2.0.
+
+Includes the official scrcpy server v4.1.
+scrcpy: Copyright (C) 2018 Genymobile; Copyright (C) 2018-2026 Romain Vimont.
+https://github.com/Genymobile/scrcpy/tree/v4.1
+License: Apache License, Version 2.0 (LICENSE-scrcpy.txt).
+The boot keyboard report descriptor follows scrcpy's hid_keyboard.c.
+The Android client, USB ADB transport, and UI were written for this project.
+
+Samsung DeX and Galaxy are Samsung trademarks. Y900 is a Lenovo product.
+This is an independent application, not an official Samsung or Lenovo application.

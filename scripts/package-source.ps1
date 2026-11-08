@@ -3,9 +3,9 @@ Set-StrictMode -Version Latest
 $root = Split-Path -Parent $PSScriptRoot
 $dist = Join-Path $root 'dist'
 New-Item -ItemType Directory -Force -Path $dist | Out-Null
-$path = Join-Path $dist 'DeXTablet-0.2.0-source.zip'
+$path = Join-Path $dist 'DeXTablet-0.2.1-source.zip'
 $files = @()
-foreach ($directory in @('app\src','scripts','tests')) {
+foreach ($directory in @('app\src','scripts','tests','assets\branding','obtainium')) {
     $files += Get-ChildItem -LiteralPath (Join-Path $root $directory) -Recurse -File
 }
 foreach ($name in @('.gitignore','build.gradle','settings.gradle','app\build.gradle','LICENSE','README.md','SOURCES.md','VALIDATION.md','RELEASE.md')) {

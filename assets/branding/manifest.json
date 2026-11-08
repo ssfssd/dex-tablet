@@ -1,0 +1,106 @@
+[
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-1024.png",
+    "sha256": "220e310fb1d9a3a35d8fa11796d7d0fdafdf7551e04627e3302b0858c12c9e8f"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-128.png",
+    "sha256": "54781192168a7b7eb72acae16407fa0bcab18e8bea9a6f2a2cf9b143ea33a52f"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-16.png",
+    "sha256": "e0e1d5e51c085b735854e3d2189d34bb385588a2e92f3ca49cfba8265568845a"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-20.png",
+    "sha256": "e5687869b7569b581300f75039458244c24e24ce5ff6ea3d03633dcb8eee925a"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-24.png",
+    "sha256": "cd79ff6dc70741e13b1507da673a24ed1f1b4c79aa46fa127865e9e789700f6c"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-256.png",
+    "sha256": "1c4e079112e6cd9a7287df51407fbd7330f98ccb5f47c33812814b3911c7f35f"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-32.png",
+    "sha256": "0d177e947a5be8cc6320449666aff92b0c609c7ff66e1239248259c08d0f5261"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-40.png",
+    "sha256": "fef02a6e02d83a53dd509eb322321f3e6010017a94879b819d3817567b9eb94e"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-48.png",
+    "sha256": "6f37338d27e7bfe661f39da9c2d12c0c6eebabb3f703c33a5f45387212209532"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-512.png",
+    "sha256": "22a13befd101e365a72f3ff127eacce129ab5e9ae3d34f8796fecebef2989914"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-64.png",
+    "sha256": "0f6b9ca9028305ecb8f3513ab866ffa3ed280ff845ccea145a61cd627fc39e32"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet-96.png",
+    "sha256": "022b1ba6ff98ec25b9a672130e3e0373b3cf501d07075186ffd32f96dd8ffa8e"
+  },
+  {
+    "file": "assets/branding/dex-tablet/DeXTablet.ico",
+    "sha256": "807b33039da58441d40a78893aa81bd58510373ec6ff16b574336cb63df79262"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-1024.png",
+    "sha256": "0665b150c9ab67f25ec40a5472342d9e9007ddb06a0c888ea5a57aa51efabb7d"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-128.png",
+    "sha256": "12a7cd7f14b26da46a218c0b3fca12a70f3b4d95fff7152b139a626243ebc704"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-16.png",
+    "sha256": "c1fe39b10490e3228bba1adafd670d1a71eba6e0ae282ff61316432066764988"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-20.png",
+    "sha256": "5a9437a7e1ce611c7e97eaa78664d7864a8d4127e76c13e0f94f9312bc0d9c3a"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-24.png",
+    "sha256": "5587aec3f20175b9b67b175521d1de08378c6fa37ed5259d08401fa295879447"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-256.png",
+    "sha256": "823622c65fafd7c9ca5129b6eaa743dff3356336a443a41577c248d5162c04e5"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-32.png",
+    "sha256": "57dfaa9dc6f8d78af26f947e8749edf11e704ea398f1067150a2c2923f1c156f"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-40.png",
+    "sha256": "86b3d4b26198ca11c2b8b4272d8924342af5cd9987aa9de52f5dd53c08cb7dda"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-48.png",
+    "sha256": "0aa36c6f620b0a6fdd41a2bd6ed80d43903abd949c1d530e24332cde652b293b"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-512.png",
+    "sha256": "8bddc5cb7134d44711ae4354f2f07e726912e21cb5636e08a21c0ccd360a2dbe"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-64.png",
+    "sha256": "f1afdd40117b7ff6eb0bd474bf3b60c83e15e198a7049555c08962d775d3af6e"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager-96.png",
+    "sha256": "59c8c2a1aa400f9980bbe9de6728c7f48945447f181c93af3951f37835e2116d"
+  },
+  {
+    "file": "assets/branding/dx-manager/DXManager.ico",
+    "sha256": "722aa215027ec3d9a87e19ab93d09235f3672bf196b7fb760de469898fee4dc9"
+  }
+]

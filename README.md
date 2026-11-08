@@ -1,16 +1,22 @@
-# DeX Tablet 0.2.0
+# DeX Tablet 0.2.1
+
+<img src="assets/branding/dex-tablet/DeXTablet-256.png" width="96" height="96" alt="DeX Tablet 아이콘">
+
+0.2.1은 런처·원형·테마 아이콘을 추가한 개발 빌드입니다. Windows용 DX Manager 2.5.0 아이콘 수정 사본도 같은 릴리스에서 받을 수 있습니다. [아이콘 안내](assets/branding/README.md) · **[Obtainium 설정 포함 추가 및 업데이트](obtainium/README.md)**
 
 DeX를 지원하는 갤럭시의 화면을 USB로 안드로이드 태블릿에 받아 표시하고, 태블릿의 키보드·마우스 입력을 휴대폰으로 보내는 앱입니다. **수신 태블릿의 제조사나 모델을 제한하지 않습니다.** Android 9 이상, USB 호스트/OTG, 지원되는 H.264 디코더가 필요합니다. 휴대폰 쪽은 Samsung DeX 지원 갤럭시와 호환 펌웨어가 필요합니다.
 
 **현재 상태: APK 빌드 및 34개 합성 테스트 그룹 통과. 실제 태블릿/갤럭시 조합의 화면·입력·DeX 호환성 검증은 아직 수행하지 않은 개발 빌드입니다.** 범용 설치 대상이라는 설명은 모든 태블릿에서의 동작 보증을 뜻하지 않습니다. 가상화면이 생성된다는 것과 Samsung DeX의 모든 창 기능이 정상 동작한다는 것도 다릅니다.
 
-**[태블릿용 APK 다운로드](https://github.com/ssfssd/dex-tablet/releases/download/v0.2.0/DeXTablet-0.2.0-debug.apk)** · [릴리스 페이지](https://github.com/ssfssd/dex-tablet/releases/tag/v0.2.0) · [SHA-256](https://github.com/ssfssd/dex-tablet/releases/download/v0.2.0/DeXTablet-0.2.0-debug.apk.sha256)
+**[태블릿용 APK 다운로드](https://github.com/ssfssd/dex-tablet/releases/download/v0.2.1/DeXTablet-0.2.1-debug.apk)** · **[Windows 포터블 ZIP](https://github.com/ssfssd/dex-tablet/releases/download/v0.2.1/DXManager-2.5.0-custom-icons.zip)** · [릴리스 페이지](https://github.com/ssfssd/dex-tablet/releases/tag/v0.2.1) · [APK SHA-256](https://github.com/ssfssd/dex-tablet/releases/download/v0.2.1/DeXTablet-0.2.1-debug.apk.sha256)
 
 태블릿 브라우저에서 APK를 내려받아 열면 설치할 수 있습니다. Git이나 Android Studio는 필요하지 않습니다. GitHub의 `Source code` 파일은 설치 파일이 아닙니다.
 
+Obtainium에 기존 저장소를 등록했다면 **개발판 포함**을 켜고 업데이트를 확인하세요. 새 설정 링크는 ZIP을 제외하고 DeX Tablet APK만 선택합니다. 기존 앱과 같은 서명 인증서 및 앱 ID를 유지했고 versionCode를 2에서 3으로 올렸습니다. 기기에서의 실제 업데이트 설치는 미검증입니다. Windows ZIP은 공식 DX Manager 2.5.0의 아이콘만 바꾼 개인용 사본이며 upstream 공식 릴리스가 아닙니다.
+
 ## 설치 및 연결
 
-1. 위의 **태블릿용 APK 다운로드** 링크에서 `DeXTablet-0.2.0-debug.apk`를 받아 **화면을 표시할 태블릿에** 설치합니다. 로컬 빌드 파일은 `dist/`에 있습니다. 갤럭시에 scrcpy 앱을 따로 설치할 필요는 없습니다. Windows PC 설정은 변경하지 않습니다.
+1. 위의 **태블릿용 APK 다운로드** 링크에서 `DeXTablet-0.2.1-debug.apk`를 받아 **화면을 표시할 태블릿에** 설치합니다. 로컬 빌드 파일은 `dist/`에 있습니다. 갤럭시에 scrcpy 앱을 따로 설치할 필요는 없습니다. Windows PC 설정은 변경하지 않습니다.
 2. 갤럭시에서 개발자 옵션의 **USB 디버깅**을 켭니다. 개발자 옵션이 없으면 `설정 → 휴대전화 정보 → 소프트웨어 정보 → 빌드번호`를 여러 번 누릅니다.
 3. 데이터 전송을 지원하는 USB 케이블로 연결합니다. 수신 태블릿이 **USB 호스트/제어 주체**가 되어야 합니다. USB 환경설정에서 역할을 바꿀 수 없다면 태블릿 쪽 OTG 어댑터 또는 호스트용 USB 허브와 데이터 케이블을 사용합니다. 충전 전용 케이블은 사용할 수 없습니다.
 4. 태블릿에서 **DeX Tablet → USB 기기 다시 찾기 → 유선 DeX 시작**을 누릅니다. 태블릿의 USB 접근 요청과 **갤럭시 화면의 USB 디버깅 허용 요청**을 각각 허용합니다. 갤럭시 잠금을 해제한 상태에서 시작합니다.
@@ -80,7 +86,7 @@ USB 장치 자체의 전달은 구현하지 않았습니다. **태블릿 포트�
 
 GitHub 저장소의 **Releases에 APK를 첨부**하면 태블릿 브라우저에서 내려받아 설치할 수 있습니다. 사용자에게 Git이나 Android Studio는 필요하지 않습니다. GitHub의 자동 생성 Source code ZIP은 설치 파일이 아닙니다. APK 파일을 선택해야 합니다.
 
-공개 저장소는 [ssfssd/dex-tablet](https://github.com/ssfssd/dex-tablet)입니다. 다운로드 파일과 개발판 설명은 [v0.2.0 릴리스](https://github.com/ssfssd/dex-tablet/releases/tag/v0.2.0), 배포 정책은 [RELEASE.md](RELEASE.md)를 참고하세요. APK는 개발 서명이며, 같은 서명 키를 유지해야 이후 업데이트 설치가 가능합니다. 키와 기기 인증 정보는 공개 소스에 포함하지 않습니다.
+공개 저장소는 [ssfssd/dex-tablet](https://github.com/ssfssd/dex-tablet)입니다. 다운로드 파일과 개발판 설명은 [v0.2.1 릴리스](https://github.com/ssfssd/dex-tablet/releases/tag/v0.2.1), 배포 정책은 [RELEASE.md](RELEASE.md)를 참고하세요. APK는 개발 서명이며, 같은 서명 키를 유지해야 이후 업데이트 설치가 가능합니다. 키와 기기 인증 정보는 공개 소스에 포함하지 않습니다.
 
 ## 코드 구성
 

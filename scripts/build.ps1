@@ -44,7 +44,7 @@ $key = Join-Path $signing 'debug.jks'
 if (!(Test-Path -LiteralPath $key)) {
     Run-Tool "$Java\bin\keytool.exe" @('-genkeypair','-noprompt','-keystore',$key,'-storepass','android','-keypass','android','-alias','androiddebugkey','-keyalg','RSA','-keysize','2048','-validity','10000','-dname','CN=Android Debug,O=DeX Tablet Development,C=KR')
 }
-$apkName = 'DeXTablet-0.2.0-debug.apk'
+$apkName = 'DeXTablet-0.2.1-debug.apk'
 $apk = Join-Path $dist $apkName
 Run-Tool "$bt\apksigner.bat" @('sign','--ks',$key,'--ks-key-alias','androiddebugkey','--ks-pass','pass:android','--key-pass','pass:android','--out',$apk,"$work\aligned.apk")
 Run-Tool "$bt\apksigner.bat" @('verify','--verbose',$apk)

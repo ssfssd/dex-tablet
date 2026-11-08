@@ -1,0 +1,7 @@
+{
+  "id": "dev.dextablet",
+  "url": "https://github.com/ssfssd/dex-tablet",
+  "author": "ssfssd",
+  "name": "DeX Tablet",
+  "additionalSettings": "{\"includePrereleases\":true,\"verifyLatestTag\":false,\"includeZips\":false,\"apkFilterRegEx\":\"^DeXTablet-.*\\\\.apk$\"}"
+}
